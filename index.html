@@ -14,9 +14,11 @@
     <title>Bootstrap-ecommerce</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-light container pt-2 ">
+    <nav class="navbar navbar-expand-lg bg-light container pt-2">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="images/logo.png" alt="logo"></a>
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.png" alt="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -25,34 +27,38 @@
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >
-            </button>
+        ></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="d-flex" role="search">
             <input
-              class="form-control me-2"
+              class="form-control border-danger me-2"
               type="search"
               placeholder="Search something"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success " type="submit">
-              Search
-            </button>
+            <button class="btn btn-outline-danger" type="submit">Search</button>
           </form>
           <!-- navbar item  -->
 
           <ul
             class="navbar-nav me-2 mb-2 mb-lg-0 position-absolute top-0 end-0"
           >
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item pe-4">
+              <a
+                class="nav-link active fw-bold fs-5"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link fw-bold fs-5" href="#">Product</a>
+            </li>
+            <li class="nav-item pe-4">
+              <a class="nav-link fw-bold fs-5" href="#">Contact Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link fw-bold fs-5" href="#">about Us</a>
             </li>
           </ul>
         </div>
